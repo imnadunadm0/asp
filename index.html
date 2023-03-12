@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+      
+        <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+        <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+      
+    
+<!-- CSS  -->
+ <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+
+<style>
+    #div1{
+         padding-left: 25%;
+         padding-right: 25%;
+         padding-top: 25%;
+         padding-bottom: 25%;
+        
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").load ("https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js");
+  });
+});
+</script>
+    </head>
+      
+      <body style="background-image: url('https://i.ibb.co/fXPxBRz/pexels-mudassir-ali-2680270.jpg');background-repeat:no-repeat;background-size:cover;">
+
+<!-- HTML -->
+<div id="div1">
+
+
+</div>
+<button >HI</button>
+
+<!--For ads-->
+<div class="ads"><center><p>For ads</p></center></div>
+
+      </body>
+
+<!-- JS code -->
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>
+<script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+var player = videojs('hls-example');
+player.play();
+
+</script>
+</html>
